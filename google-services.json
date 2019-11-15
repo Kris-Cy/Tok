@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "652827412889",
+    "firebase_url": "https://projecttok-8e32c.firebaseio.com",
+    "project_id": "projecttok-8e32c",
+    "storage_bucket": "projecttok-8e32c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652827412889:android:b1bcd95adf4fd0d0606b08",
+        "android_client_info": {
+          "package_name": "com.sleepy.tok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652827412889-aiuscgnrgc4c2h094p11bfub3emb568f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sleepy.tok",
+            "certificate_hash": "f0315d287e81990383be843264d44b4897cb8294"
+          }
+        },
+        {
+          "client_id": "652827412889-3jpvni8ckjboj5atlv2r9rkfq6bvn6t0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvXWWsE7W17s6IYP_KMqcE2tYPcTFNAv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652827412889-3jpvni8ckjboj5atlv2r9rkfq6bvn6t0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
