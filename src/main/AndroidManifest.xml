@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.sleepy.tok">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Utils.Tok"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".other_single_page_activities.ChatActivity"
+            android:parentActivityName=".main_activity.MainActivity">
+        </activity>
+        <activity android:name=".search_activity.OtherUserActivity" />
+        <activity android:name=".getting_started.SetupProfileActivity" />
+        <activity android:name=".search_activity.AllUsersActivity" />
+        <activity android:name=".user_activity.ChangePictureActivity" />
+        <activity android:name=".user_activity.UserActivity" />
+        <activity android:name=".main_activity.MainActivity" />
+        <activity android:name=".getting_started.LoginActivity" />
+        <activity android:name=".getting_started.SignUpActivity" />
+        <activity android:name=".getting_started.SignUpOrLogIn" />
+        <activity android:name=".getting_started.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

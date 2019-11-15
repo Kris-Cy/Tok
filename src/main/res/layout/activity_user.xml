@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_activity.UserActivity">
+
+    <include layout="@layout/layout_viewpager"/>
+
+<RelativeLayout
+    android:id="@+id/relLayoutUserTop"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".user_activity.UserActivity">
+
+    <include layout="@layout/snippet_top_backbutton"/>
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/relLayoutUserMiddle"
+    android:layout_below="@id/relLayoutUserTop"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".user_activity.UserActivity">
+
+    <include layout="@layout/layout_user_top"/>
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/relLayoutUserBottom"
+    android:layout_below="@id/relLayoutUserMiddle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lvAccountSettingsOptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
+
+</RelativeLayout>

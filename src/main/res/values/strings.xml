@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tok</string>
+    <string name="dbname_user">user</string>
+
+</resources>

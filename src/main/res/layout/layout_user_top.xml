@@ -1,0 +1,58 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivProfileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        app:civ_border_color="#000000"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/tvScreenName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivProfileImage"
+        android:text="Screen Name"
+        android:textSize="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvScreenName"
+        android:text="Username"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUsername"
+        android:text="The bio goes here."
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/btnChangePicture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_camera_grey"
+        android:background="@drawable/round_button"
+        android:layout_below="@id/tvBio"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"/>
+</RelativeLayout>
+</merge>

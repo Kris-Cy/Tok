@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".getting_started.SetupProfileActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Set up your profile"
+    android:textSize="40dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="30dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivProfilePhoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:src="@drawable/pikpng"
+        app:civ_border_width="1dp" />
+    <Button
+        android:id="@+id/btnUploadProfileImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="   Upload a Profile picture   "
+        android:background="@drawable/round_button"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a screen name"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/etChooseScreenName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Screen Name"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write a little bio to describe yourself"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/etChooseBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description..."
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnCreateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   create profile   "
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round_button"/>
+
+
+</LinearLayout>
